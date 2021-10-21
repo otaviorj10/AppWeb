@@ -1,0 +1,32 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model Prova;
+
+
+<form method="post" class="accordion">
+    <label>Materia : </label>
+    <br />
+    <input asp-for="@Model.Materia" type="text" />
+    <br />
+    <br />
+    <label>Nota : </label>
+    <br />
+    <input asp-for="@Model.Nota" type="text" />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <input type="submit" value="Cadastrar" formmethod="post" class="btn btn-success" />
+
+
+
+
+
+</form>
